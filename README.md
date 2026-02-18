@@ -48,8 +48,6 @@ The dataset represents multi-category retail sales across regions, customer segm
 
 6. How does customer rating relate to revenue?
 
-7. What payment methods dominate revenue?
-
 📈 Key Findings
 
 # 🔹 Revenue Performance
@@ -62,6 +60,7 @@ February 2025 shows lower revenue (likely partial-month data).
 
 📊 Monthly Revenue Trend
 
+![Monthly Revenue Trend](outputs/plots/monthly_revenue_trend.png)
 
 # 🔹 Category & Regional Performance
 Top Revenue Categories:
@@ -79,10 +78,10 @@ North and South outperform other regions.
 East region shows comparatively lower revenue contribution.
 
 📊 Revenue by Category
-
+![Revenue by Category](outputs/plots/top_categories_revenue.png)
 
 📊 Revenue by Region
-
+![Revenue by Region](outputs/plots/region_revenue.png)
 
 # 🔹 Customer Segment Analysis
 
@@ -97,7 +96,7 @@ Retail
 Indicates diversified revenue streams with low concentration risk.
 
 📊 Revenue by Customer Segment
-
+![Revenue by Segment](outputs/plots/segment_revenue.png)
 
 # 🔹 Discount Effectiveness Analysis
 
@@ -114,10 +113,10 @@ Aggressive discounting does not significantly drive revenue.
 Product demand likely plays a stronger role than pricing strategy.
 
 📊 Discount vs Sales
-
+![Discount vs Sales](outputs/plots/discount_vs_sales.png)
 
 📊 Average Sales by Discount Level
-
+![Average Sales by Discount](outputs/plots/avg_sales_by_discount.png)
 
 # 🔹 Product-Level Revenue Drivers
 Top Revenue Products:
@@ -133,7 +132,7 @@ Headphones
 Revenue is diversified across multiple products, reducing dependency risk.
 
 📊 Top 10 Products by Revenue
-
+![Top Products](outputs/plots/top_products.png)
 
 # 🔹 Underperforming Products (Risk Analysis)
 
@@ -162,7 +161,7 @@ Pricing repositioning candidates
 Discontinuation evaluation candidates
 
 📊 Underperforming Products
-
+![Underperforming Products](outputs/plots/lowest_rated_products_by_revenue.png)
 
 # 🔹 Customer Rating vs Revenue
 
@@ -172,18 +171,8 @@ Some mid-rated products generate strong revenue.
 
 Suggests brand strength and category demand influence sales beyond rating alone.
 
-📊 Average Sales by Customer Rating
-
-
-# 🔹 Payment Method Insights
-
-Digital payment methods dominate revenue share.
-
-Indicates strong adoption of cashless transactions.
-
-Suggests opportunity for digital incentive programs.
-
-📊 Payment Method Revenue Share
+📊 Average Sales by Customer Rating  
+![Rating vs Sales](outputs/plots/rating_vs_sales.png)
 
 
 # 📌 Business Implications
